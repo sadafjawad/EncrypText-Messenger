@@ -1,4 +1,4 @@
-import cryptoJs from "crypto-js";
+import cryptoJs from "crypto-js"; 
 
 // const k = 'applePiesSHIT43';
 export const lock = (text, k) => {
