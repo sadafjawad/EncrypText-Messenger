@@ -1,4 +1,4 @@
-import cryptoJs from "crypto-js";
+import cryptoJs from "crypto-js"; 
 
 
 export const unlock = (text) => {
