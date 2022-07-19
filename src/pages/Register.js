@@ -44,7 +44,7 @@ const Register = () => {
         }
     }
 
-    return (
+    return ( 
     <section>
         <h3>Create an Account</h3>
         <form className='form' onSubmit={handleSubmit}>
