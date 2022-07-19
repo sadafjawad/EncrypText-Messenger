@@ -63,7 +63,7 @@ const Home = () => {
     }
   };
 
-  const handleSubmit = async e => {
+  const handleSubmit = async e => { 
     e.preventDefault()
     const friend = chat.uid
     const id = loggedUser > friend ? `${loggedUser+friend}` : `${friend+loggedUser}`
