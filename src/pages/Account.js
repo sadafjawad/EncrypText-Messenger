@@ -4,7 +4,7 @@ import { auth, dataBase } from "../firebase";
 import { getDoc, doc } from "firebase/firestore";
 
 
-const Account = () => {
+const Account = () => { 
     const [user, setUser] = useState();
     useEffect(() => {
         getDoc(doc(dataBase, "users", auth.currentUser.uid)).then((docSnap) => {
