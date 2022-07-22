@@ -5,7 +5,7 @@ import User from '../components/User';
 import CreateMessage from '../components/CreateMessage';
 import { ref, getDownloadURL, uploadBytes } from 'firebase/storage'
 import Message from '../components/Message';
-import { lock } from '../aes/Encrypt';
+import { lock } from '../aes/Encrypt'; 
 
 const Home = () => {
   const [status, setStatus] = useState();
