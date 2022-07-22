@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Img from "./pfp.jpeg";
 import { auth, dataBase } from "../firebase";
-import { getDoc, doc } from "firebase/firestore";
+import { getDoc, doc } from "firebase/firestore"; 
 
 
 const Account = () => { 
