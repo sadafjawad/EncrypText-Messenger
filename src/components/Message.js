@@ -4,7 +4,7 @@ import { unlock } from '../aes/Decrypt';
 
 
 const Message = ({ msg, loggedUser, status }) => {
-  const scrollRef = useRef();
+  const scrollRef = useRef(); 
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
