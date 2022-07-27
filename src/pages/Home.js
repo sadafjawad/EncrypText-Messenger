@@ -10,7 +10,7 @@ import { lock } from '../aes/Encrypt';
 const Home = () => {
   const [status, setStatus] = useState();
   const [users, setUsers] = useState([]);
-  const [chat, setChat] = useState('');
+  const [chat, setChat] = useState(''); 
   const [text, setText] = useState('');
   const [img, setImg] = useState('');
   const [msgs, setMsgs] = useState('');
