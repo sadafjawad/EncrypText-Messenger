@@ -8,7 +8,7 @@ const CreateMessage = ({ handleSubmit, text, setText, setImg }) => {
           type="text"
           placeholder="Enter message"
           value={text}
-          onChange={(e) => setText(e.target.value)}
+          onChange={(e) => setText(e.target.value)} 
         />
       </div>
       <div>
